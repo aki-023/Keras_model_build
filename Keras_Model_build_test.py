@@ -17,6 +17,8 @@ print("layers[1]:")
 model.layers[1].summary()
 
 
+
+
 config = model.layers[1].get_config()
 for item in config:
     for subitem in config[item]:
